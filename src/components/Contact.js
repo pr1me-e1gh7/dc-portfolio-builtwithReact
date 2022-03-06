@@ -1,5 +1,5 @@
 import React from "react";
-import bkgd from "../contact.gif";
+import bkgd from "../images/contact.gif";
 import { Row, Col, Form, Input, Button, Space, notification } from 'antd';
 
 // const { TextArea } = Input;

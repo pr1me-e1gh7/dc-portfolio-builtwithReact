@@ -1,6 +1,6 @@
 import React from "react";
-import bkgd from "../home.gif";
-import dcphoto from "../dcphoto.jpg";
+import bkgd from "../images/home.gif";
+import dcphoto from "../images/dcphoto.jpg";
 
 export default function Home () {
     return (

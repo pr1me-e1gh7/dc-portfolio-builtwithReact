@@ -1,11 +1,11 @@
 import React from "react";
-import bkgd from "../projects.gif";
-import fourstor from "../fourstor-preview.gif"
-import codequiz from "../code-quiz-preview.gif"
-import wthrdash from "../weather-dashboard-preview.gif"
-import dayplanr from "../day-planner-preview.gif"
-import gdreadme from "../good-readme-gen-preview.gif"
-import tpgen from "../team-profile-gen-preview.gif"
+import bkgd from "../images/projects.gif";
+import fourstor from "../images/fourstor-preview.gif"
+import codequiz from "../images/code-quiz-preview.gif"
+import wthrdash from "../images/weather-dashboard-preview.gif"
+import dayplanr from "../images/day-planner-preview.gif"
+import gdreadme from "../images/good-readme-gen-preview.gif"
+import tpgen from "../images/team-profile-gen-preview.gif"
 
 export default function Project () {
     return (
