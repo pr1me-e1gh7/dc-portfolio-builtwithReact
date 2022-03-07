@@ -19,15 +19,15 @@ export default function NavBar () {
 
                     {/* Pages */}
                     <NavLink exact to="/" 
-                        className={currentPage === 'Home' ? 'inline-flex items-center py-7 px-0 mr-4 text-white text-4xl' : 'inline-flex items-center py-7 px-0 mr-4 text-xl hover:text-white'}>
+                        className={currentPage === 'Home' ? 'active:text-white text-4xl' : 'inline-flex items-center py-7 px-0 mr-4 text-xl hover:text-white'}>
                         <div onClick={() => handlePageChange("Home")}>&lt;About&gt;</div>
                     </NavLink>
                     <NavLink exact to="/Projects" 
-                        className={currentPage === 'Projects' ? 'inline-flex items-center py-7 px-0 mr-4 text-white text-4xl' : 'inline-flex items-center py-7 px-0 mr-4 text-xl hover:text-white'}>
+                        className={currentPage === 'Projects' ? 'text-white text-4xl' : 'inline-flex items-center py-7 px-0 mr-4 text-xl hover:text-white'}>
                         <div onClick={() => handlePageChange("Projects")}>&lt;Projects&gt;</div>
                     </NavLink>
                     <NavLink exact to="/Contact"
-                        className={currentPage === 'Contact' ? 'inline-flex items-center py-7 px-0 mr-4 text-white text-4xl' : 'inline-flex items-center py-7 px-0 mr-4 text-xl hover:text-white'}>
+                        className={currentPage === 'Contact' ? 'text-white text-4xl' : 'inline-flex items-center py-7 px-0 mr-4 text-xl hover:text-white'}>
                         <div onClick={() => handlePageChange("Contact")}>&lt;Contact&gt;</div>
                     </NavLink>
                     
