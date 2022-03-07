@@ -13,7 +13,9 @@ export default function Contact () {
                     <section className="bg-black text-green-400 rounded-lg lg:flex p-5">
                         <div className="text-lg flex flex-col justify-center">
                             <h2 className="text-5xl mb-2">&lt;Got a Question?&gt;</h2>
-                            <p className="text-2xl">Shoot me an Email at dcaro1996@yahoo.com and I'll do my best to respond in a timely manner.</p>
+                            <p className="text-2xl">Shoot me an Email at
+                                <a href="mailto:dcaro1996@yahoo.com" target="_blank" className="hover:text-white"> dcaro1996@yahoo.com </a>
+                            and I'll do my best to respond in a timely manner.</p>
                         </div>
                     </section>
                 </div>
