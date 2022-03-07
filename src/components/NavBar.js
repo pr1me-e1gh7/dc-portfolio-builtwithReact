@@ -18,7 +18,7 @@ export default function NavBar () {
                     </h1>
 
                     {/* Pages */}
-                    <NavLink exact to="/" 
+                    <NavLink exact to="/dc-portfolio-builtwithReact/" 
                         className={currentPage === 'Home' ? 'inline-flex items-center py-7 px-0 mr-4 text-white text-4xl' : 'inline-flex items-center py-7 px-0 mr-4 text-xl hover:text-white'}>
                         <div onClick={() => handlePageChange("Home")}>&lt;About&gt;</div>
                     </NavLink>
