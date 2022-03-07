@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/dc-portfolio-builtwithReact/static/css/main.fbe236aa.css",
+    "main.js": "/dc-portfolio-builtwithReact/static/js/main.38830d59.js",
+    "static/js/787.d5a9054b.chunk.js": "/dc-portfolio-builtwithReact/static/js/787.d5a9054b.chunk.js",
+    "static/media/weather-dashboard-preview.gif": "/dc-portfolio-builtwithReact/static/media/weather-dashboard-preview.aa58a7f803b2aa1a1592.gif",
+    "static/media/fourstor-preview.gif": "/dc-portfolio-builtwithReact/static/media/fourstor-preview.c8b0783313f7f081e050.gif",
+    "static/media/day-planner-preview.gif": "/dc-portfolio-builtwithReact/static/media/day-planner-preview.ce460abf39af4fc7bf78.gif",
+    "static/media/home.gif": "/dc-portfolio-builtwithReact/static/media/home.74d14e353869bf5a139b.gif",
+    "static/media/projects.gif": "/dc-portfolio-builtwithReact/static/media/projects.d13896aa2f090ba2f35e.gif",
+    "static/media/code-quiz-preview.gif": "/dc-portfolio-builtwithReact/static/media/code-quiz-preview.3012e6b0dacc9f9943b8.gif",
+    "static/media/contact.gif": "/dc-portfolio-builtwithReact/static/media/contact.0b95746c7752af54f0e7.gif",
+    "static/media/good-readme-gen-preview.gif": "/dc-portfolio-builtwithReact/static/media/good-readme-gen-preview.0666693c6982906c7564.gif",
+    "static/media/team-profile-gen-preview.gif": "/dc-portfolio-builtwithReact/static/media/team-profile-gen-preview.3148281a42bbae0216b7.gif",
+    "static/media/dcphoto.jpg": "/dc-portfolio-builtwithReact/static/media/dcphoto.0e8ee7795e14cca6e02b.jpg",
+    "index.html": "/dc-portfolio-builtwithReact/index.html",
+    "main.fbe236aa.css.map": "/dc-portfolio-builtwithReact/static/css/main.fbe236aa.css.map",
+    "main.38830d59.js.map": "/dc-portfolio-builtwithReact/static/js/main.38830d59.js.map",
+    "787.d5a9054b.chunk.js.map": "/dc-portfolio-builtwithReact/static/js/787.d5a9054b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbe236aa.css",
+    "static/js/main.38830d59.js"
+  ]
+}
