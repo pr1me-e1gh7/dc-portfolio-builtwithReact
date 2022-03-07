@@ -13,7 +13,7 @@ function App() {
       <NavBar></NavBar>
         <Routes>
           {/* Home = About Me */}
-          <Route path='/dc-portfolio-builtwithReact/' exact element={<Home/>} />
+          <Route path='/' exact element={<Home/>} />
           <Route path='/Projects' element={<Projects/>} />
           <Route path='/Contact' element={<Contact/>} />
         </Routes>
