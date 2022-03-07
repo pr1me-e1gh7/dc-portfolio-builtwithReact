@@ -25,12 +25,12 @@ export default function NavBar ({ currentPage, handlePageChange }) {
                         &lt;Projects&gt;
                     </NavLink>
 
-                    {/* Contact */}
-                    {/* <NavLink exact to="/ContactMe" 
+                    {/* Contact Me */}
+                    <NavLink exact to="/Contact" 
                     activeClassName="text-white text-4xl"
                     className="inline-flex items-center py-7 px-0 mr-4 text-xl hover:text-white">
                         &lt;Contact&gt;
-                    </NavLink> */}
+                    </NavLink>
                     
                     {/* Resume */}
                     <a activeClassName="text-white text-4xl"

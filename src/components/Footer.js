@@ -12,6 +12,9 @@ export default function Footer () {
                     style={{ height:35, width:35 }}></SocialIcon>
                 <SocialIcon url="https://discordapp.com/users/pr1me_e1gh7#1857/" target="_blank" className="inline-flex py-7 px-3 mr-3 navicons"
                     style={{ height:35, width:35 }}></SocialIcon>
+                <SocialIcon url="https://stackoverflow.com/users/17207475/pr1me-e1gh7" target="_blank" className="inline-flex py-7 px-3 mr-3 navicons"
+                    style={{ height:35, width:35 }}></SocialIcon>
+
                 </div>
             </div>
         </section>
