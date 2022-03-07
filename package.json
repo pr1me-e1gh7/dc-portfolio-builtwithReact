@@ -3,8 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage":"https://pr1me-e1gh7.github.io/",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
   "dependencies": {
     "-": "^0.0.1",
     "@sanity/cli": "^2.27.3",
@@ -31,6 +29,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
