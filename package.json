@@ -1,7 +1,7 @@
 {
   "name": "dc-portfolio-builtwithReact",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://pr1me-e1gh7.github.io/dc-portfolio-builtwithReact/",
   "dependencies": {
     "-": "^0.0.1",
