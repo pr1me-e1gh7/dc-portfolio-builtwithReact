@@ -1,133 +1,105 @@
-import React from "react";
+import React from 'react';
 import bkgd from "../images/contact.gif";
-import { Row, Col, Form, Input, Button, Space, notification } from 'antd';
-
-// const { TextArea } = Input;
-// const SENDGRID_API_KEY = "<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>";
-// const sgMail = require('@sendgrid/mail')
-// sgMail.setApiKey(process.env.SENDGRID_API_KEY)
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form'
+import Button from 'react-bootstrap/Button'
 
 function Contact () {
-    // const [form] = Form.useForm();
-
-	// const onComplete = (fields) => {
-	// 	const message = {
-	// 		to: 'dcaro1996@yahoo.com',
-	// 		from: fields.email,
-	// 		subject: fields.subject,
-	// 		html: `
-    //   <p><strong>Name:</strong> ${fields.name}</p>
-    //   <p>${fields.message}</p>`,
-	// 	};
-
-	// 	sgMail
-	// 		.send(message)
-	// 		.then(() => {
-	// 			form.resetFields();
-	// 			console.log('Email Sent!');
-	// 			notification.open({
-	// 				message: 'Message successfu!',
-	// 				description: 'We have successfully received your email.',
-	// 			});
-	// 		})
-	// 		.catch((error) => {
-	// 			console.error('Error: ', error);
-	// 		});
-	// };
-    
     return (
         <div>
             <img src={bkgd} alt="Contact" className="custom-img absolute object-cover w-full h-full"></img>
-            {/* <Row gutter={24} style={{ padding: '30px' }}>
-			<Col xl={12}>
-				<Form layout='vertical' form={form} onFinish={onComplete}>
-					<Form.Item
-						name='name'
-						label='Name'
-						rules={[
-							{
-								required: true,
-							},
-						]}>
-						<Input />
-					</Form.Item>
-					<Form.Item
-						name='email'
-						label='Email'
-						rules={[
-							{
-								required: true,
-							},
-						]}>
-						<Input />
-					</Form.Item>
-					<Form.Item
-						name='subject'
-						label='Subject'
-						rules={[
-							{
-								required: true,
-							},
-						]}>
-						<Input />
-					</Form.Item>
-					<Form.Item
-						name='message'
-						label='Message'
-						rules={[
-							{
-								required: true,
-							},
-						]}>
-						<TextArea />
-					</Form.Item>
-					<Form.Item>
-						<Space>
-							<Button type='primary' htmlType='submit'>
-								Submit
-							</Button>
-							<Button
-								type='secondary'
-								htmlType='submit'
-								onClick={(e) => form.resetFields()}>
-								Clear
-							</Button>
-						</Space>
-					</Form.Item>
-				</Form>
-			</Col>
-		</Row> */}
-            <main className="relative">
-                <div className="p-10 lg:pt48 container mx-auto relative">
-                    {/* Space for Nav */}
+            <br></br>
+            <Form onSubmit={this.handleSubmit}>
+                <Form.Group>
+                    <Form.Label htmlFor='full-name'>Full Name</Form.Label>
                     <br></br>
-                    {/* Background */}
-                    <section className="bg-black text-green-400 rounded-lg p-5">
-                        <div className="text-lg flex">
-                            <h2 className="text-5xl mb-2" id="custom-contact">&lt;Got a Question?&gt;</h2>
-                        </div>
-                    </section>
+                    <Form.Control id='full-name' name='name' type='text' value={this.state.name} onChange={this.handleChange} />
+                </Form.Group>
+                <br></br>
+                <Form.Group>
+                    <Form.Label htmlFor='email'>Email</Form.Label>
                     <br></br>
-                    {/* Space for footer */}
+                    <Form.Control id='email' name='email' type='email' value={this.state.email} onChange={this.handleChange} />
+                </Form.Group>
+                <br></br>
+                <Form.Group>
+                    <Form.Label htmlFor='message'>Message</Form.Label>
                     <br></br>
-                    <br></br>
-                </div>
-            </main>
-            {/* <Row gutter={24} style={{ padding : '30px'}} />
-                <Col xl={12}>
-                    <Form form={form}>
-                        <Form.Item>
-                            <Space>
-                                <Button type="primary">Submit</Button>
-                                <Button type="secondary" onClick={(e) => form.resetFields()}>
-                                    Clear</Button>
-                            </Space>
-                        </Form.Item>
-                    </Form>        
-                </Col> */}
+                    <Form.Control id='message' name='message' as="textarea" row="3" value={this.state.name} onChange={this.handleChange} />
+                </Form.Group>
+                <br></br>
 
+                <Button className='d-inlineblock' variant='primary' type='submit' disabled={this.state.disabled}>
+                    Send
+                </Button>
+
+                {this.state.emailSent === true && <p className='d-inline success-msg'>Email Sent</p>}
+                {this.state.emailSent === false && <p className='d-inline err-msg'>Error: Email could not be sent</p>}
+            </Form>
         </div>
-    );
-};
+    )
+}
 
 export default Contact;
+
+// class Contact extends React.Component {
+
+    // constructor(props) {
+    //     super(props);
+    //     this.state = {
+    //         name: '',
+    //         email: '',
+    //         message: '',
+    //         disabled: 'false',
+    //         emailSent: null,
+    //     }
+    // }
+
+    // handleChange = {event} => {
+    //     console.log(event);
+
+    //     const target = event.target;
+    //     const value = target.type === ''
+    // }
+
+//     render() {
+//         return(
+//             <div>
+//                 <img src={bkgd} alt="Contact" className="custom-img absolute object-cover w-full h-full"></img>
+//                 <br></br>
+//                 <Form onSubmit={this.handleSubmit}>
+//                     <Form.Group>
+//                         <Form.Label htmlFor='full-name'>Full Name</Form.Label>
+//                         <br></br>
+//                         <Form.Control id='full-name' name='name' type='text' value={this.state.name} onChange={this.handleChange} />
+//                     </Form.Group>
+//                     <br></br>
+//                     <Form.Group>
+//                         <Form.Label htmlFor='email'>Email</Form.Label>
+//                         <br></br>
+//                         <Form.Control id='email' name='email' type='email' value={this.state.email} onChange={this.handleChange} />
+//                     </Form.Group>
+//                     <br></br>
+//                     <Form.Group>
+//                         <Form.Label htmlFor='message'>Message</Form.Label>
+//                         <br></br>
+//                         <Form.Control id='message' name='message' as="textarea" row="3" value={this.state.name} onChange={this.handleChange} />
+//                     </Form.Group>
+//                     <br></br>
+
+//                     <Button className='d-inlineblock' variant='primary' type='submit' disabled={this.state.disabled}>
+//                         Send
+//                     </Button>
+
+//                     {this.state.emailSent === true && <p className='d-inline success-msg'>Email Sent</p>}
+//                     {this.state.emailSent === false && <p className='d-inline err-msg'>Error: Email could not be sent</p>}
+//                 </Form>
+//             </div>
+//         );
+//     }
+
+// }
+
+// export default Contact;
