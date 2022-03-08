@@ -7,13 +7,13 @@ export default function Footer () {
             <div class="mx-auto flex justify-center">
                 <div className="inline-flex px-3 my-1">
                 <SocialIcon url="https://github.com/pr1me-e1gh7" target="_blank" className="inline-flex py-7 px-3 mr-3 navicons"
-                    style={{ height:35, width:35 }}></SocialIcon>
+                    style={{ height:35, width:35 }} title="GitHub profile"></SocialIcon>
                 <SocialIcon url="https://www.linkedin.com/in/davidanthonycaro/" target="_blank" className="inline-flex py-7 px-3 mr-3 navicons"
-                    style={{ height:35, width:35 }}></SocialIcon>
+                    style={{ height:35, width:35 }} title="LinkedIn profile"></SocialIcon>
                 <SocialIcon url="https://discordapp.com/users/pr1me_e1gh7#1857/" target="_blank" className="inline-flex py-7 px-3 mr-3 navicons"
-                    style={{ height:35, width:35 }}></SocialIcon>
+                    style={{ height:35, width:35 }} title="Discord profile"></SocialIcon>
                 <SocialIcon url="https://stackoverflow.com/users/17207475/pr1me-e1gh7" target="_blank" className="inline-flex py-7 px-3 mr-3 navicons"
-                    style={{ height:35, width:35 }}></SocialIcon>
+                    style={{ height:35, width:35 }} title="Stack Overflow profile"></SocialIcon>
 
                 </div>
             </div>

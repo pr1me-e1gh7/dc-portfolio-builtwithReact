@@ -14,25 +14,26 @@ export default function NavBar () {
                 <nav className="flex">
                     {/* Name / Github Link */}
                     <h1 className="inline-flex items-center py-7 px-0 mr-4 text-xl hover:text-white">
-                        <a href="https://github.com/pr1me-e1gh7" target="_blank">David Caro</a>
+                        <a href="https://github.com/pr1me-e1gh7" target="_blank" title="GitHub profile">David Caro</a>
                     </h1>
 
                     {/* Pages */}
-                    <NavLink exact to="/" 
+                    <NavLink exact to="/" title="About page"
                         className={currentPage === 'Home' ? 'inline-flex items-center py-7 px-0 mr-4 text-white text-4xl' : 'inline-flex items-center py-7 px-0 mr-4 text-xl hover:text-white'}>
                         <div onClick={() => handlePageChange("Home")}>&lt;About&gt;</div>
                     </NavLink>
-                    <NavLink exact to="/Projects" 
+                    <NavLink exact to="/Projects" title="Projects page"
                         className={currentPage === 'Projects' ? 'inline-flex items-center py-7 px-0 mr-4 text-white text-4xl' : 'inline-flex items-center py-7 px-0 mr-4 text-xl hover:text-white'}>
                         <div onClick={() => handlePageChange("Projects")}>&lt;Projects&gt;</div>
                     </NavLink>
-                    <NavLink exact to="/Contact"
+                    <NavLink exact to="/Contact" title="Contact page"
                         className={currentPage === 'Contact' ? 'inline-flex items-center py-7 px-0 mr-4 text-white text-4xl' : 'inline-flex items-center py-7 px-0 mr-4 text-xl hover:text-white'}>
                         <div onClick={() => handlePageChange("Contact")}>&lt;Contact&gt;</div>
                     </NavLink>
                     
                     {/* Resume */}
-                    <a className="inline-flex items-center py-7 px-0 mr-4 text-xl hover:text-white"
+                    <a title="Resume link"
+                    className="inline-flex items-center py-7 px-0 mr-4 text-xl hover:text-white"
                     href="https://drive.google.com/file/d/157yu4DMGOO1Qx-D4fQ_UF0BXG1HgMQ5S/view"
                     target="_blank">
                         &lt;Resume&gt;

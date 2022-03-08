@@ -14,7 +14,8 @@ export default function Contact () {
                         <div className="text-lg flex flex-col justify-center">
                             <h2 className="text-5xl mb-2">&lt;Got a Question?&gt;</h2>
                             <p className="text-2xl">Shoot me an Email at
-                                <a href="mailto:dcaro1996@yahoo.com" target="_blank" className="hover:text-white"> dcaro1996@yahoo.com </a>
+                                <a href="mailto:dcaro1996@yahoo.com" target="_blank" className="hover:text-white" title="Click here to email me from your machine's mail app">
+                                    dcaro1996@yahoo.com </a>
                             and I'll do my best to respond in a timely manner.</p>
                         </div>
                     </section>
