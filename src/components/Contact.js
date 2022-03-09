@@ -1,8 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 import bkgd from "../images/contact.gif";
-// import 'bootstrap/dist/css/bootstrap.min.css'
+const FORM_ENDPOINT = "https://public.herotofu.com/v1/a54b8bf0-9fc8-11ec-bdf8-dd9c99f898ec";
 
 export default function Contact () {
+    const [submitted, setSubmitted] = useState(false);
+    const handleSubmit = () => {
+        setTimeout(() => {
+            setSubmitted(true);
+        }, 100);
+    };
+
+    if (submitted) {
+        return (
+            <div>
+                <img src={bkgd} alt="Contact Me" className="custom-img absolute object-cover w-full h-full"></img>
+                {/* Space for navbar */}
+                <br></br>
+                <main className="relative">
+                    <div className="p-10 lg:pt48 container mx-auto relative">
+                        <section className="bg-black text-green-400 rounded-lg lg:flex p-5">
+                            <div className="text-lg flex flex-col justify-center">
+                                <h2 className="text-5xl mb-2">&lt;Email Sent&gt;</h2>
+                                <p className="text-2xl">I'll get back to you as soon as I can!</p>
+                            </div>
+                        </section>
+                    </div>
+                </main>
+            </div>
+        );
+    }
+
     return (
         <div>
             <img src={bkgd} alt="Contact Me" className="custom-img absolute object-cover w-full h-full"></img>
@@ -10,45 +37,47 @@ export default function Contact () {
             <br></br>
             <main className="relative">
                 <div className="p-10 lg:pt48 container mx-auto relative">
-                    <section className="bg-black text-green-400 rounded-lg lg:flex p-5">
+                    {/* <section className="bg-black text-green-400 rounded-lg lg:flex p-5">
                         <div className="text-lg flex flex-col justify-center">
                             <h2 className="text-5xl mb-2">&lt;Got a Question?&gt;</h2>
                             <p className="text-2xl">Shoot me an Email at
-                                <a href="mailto:dcaro1996@yahoo.com" target="_blank" className="hover:text-white" title="Click here to email me from your machine's mail app">
+                                <a href="mailto:dcaro1996@yahoo.com" rel="noreferrer" target="_blank" className="hover:text-white" title="Click here to email me from your machine's mail app">
                                     dcaro1996@yahoo.com </a>
                             and I'll do my best to respond in a timely manner.</p>
+                        </div>
+                    </section> */}
+                    <section className="bg-black text-green-400 rounded-lg lg:flex p-5">
+                        <div className="text-lg flex flex-col justify-center">
+                        <h2 className="text-5xl mb-2">&lt;Got a Question?&gt;</h2>
+                            <p className="text-2xl">Shoot me an Email using the forms below</p>
+                            <form action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST" target="_blank">
+                                <div className="mb-3 pt-0">
+                                    <input type="text" placeholder="Add your Name here" name="name"
+                                    className="px-3 py-3 placeholder-black text-black relative bg-white bg-white rounded border-0 shadow outline-none focus:outline-none focus:ring w-full"
+                                    required />
+                                </div>
+                                <div className="mb-3 pt-0">
+                                    <input type="email" placeholder="Add your contact Email here" name="email"
+                                    className="px-3 py-3 placeholder-black text-black relative bg-white bg-white rounded border-0 shadow outline-none focus:outline-none focus:ring w-full"
+                                    required />
+                                </div>
+                                <div className="mb-3 pt-0">
+                                    <textarea placeholder="Add your Message here" name="message"
+                                    className="px-3 py-3 placeholder-black text-black relative bg-white bg-white rounded border-0 shadow outline-none focus:outline-none focus:ring w-full"
+                                    required />
+                                </div>
+                                <div className="mb-3 pt-0">
+                                    <button
+                                        className="bg-green-400 text-black active:bg-white uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                                        type="submit" >
+                                        Send Email
+                                    </button>
+                                </div>
+                            </form>
                         </div>
                     </section>
                 </div>
             </main>
-
-            {/* <div onSubmit={this.handleSubmit}>
-                <div className="form-group">
-                    <label htmlFor='full-name'>Full Name</label>
-                    <br></br>
-                    <input id='full-name' name='name' type='text' value={this.state.name} onChange={this.handleChange} />
-                </div>
-                <br></br>
-                <div className="form-group">
-                    <label htmlFor='email'>Email</label>
-                    <br></br>
-                    <input id='email' name='email' type='email' value={this.state.email} onChange={this.handleChange} />
-                </div>
-                <br></br>
-                <div className="form-group">
-                    <label htmlFor='message'>Message</label>
-                    <br></br>
-                    <input id='message' name='message' as="textarea" row="3" value={this.state.name} onChange={this.handleChange} />
-                </div>
-                <br></br>
-
-                <Button className='d-inlineblock' variant='primary' type='submit' disabled={this.state.disabled}>
-                    Send
-                </Button>
-
-                {this.state.emailSent === true && <p className='d-inline success-msg'>Email Sent</p>}
-                {this.state.emailSent === false && <p className='d-inline err-msg'>Error: Email could not be sent</p>}
-            </div> */}
         </div>
 
     );
