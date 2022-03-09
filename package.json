@@ -2,7 +2,7 @@
   "name": "pr1me-e1gh7.github.io",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://pr1me-e1gh7.github.io/",
+  "homepage": "https://pr1me-e1gh7.github.io",
   "dependencies": {
     "-": "^0.0.1",
     "@sanity/cli": "^2.27.3",
