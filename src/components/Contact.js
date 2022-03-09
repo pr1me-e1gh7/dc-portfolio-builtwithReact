@@ -46,7 +46,7 @@ export default function Contact () {
                             and I'll do my best to respond in a timely manner.</p>
                         </div>
                     </section> */}
-                    <section className="bg-black text-green-400 rounded-lg lg:flex p-5">
+                    <section className="text-black rounded-lg lg:flex p-5">
                         <div className="text-lg flex flex-col justify-center">
                         <h2 className="text-5xl mb-2">&lt;Got a Question?&gt;</h2>
                             <p className="text-2xl">Shoot me an Email using the forms below</p>
@@ -68,7 +68,7 @@ export default function Contact () {
                                 </div>
                                 <div className="mb-3 pt-0">
                                     <button
-                                        className="bg-green-400 text-black active:bg-white uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                                        className="bg-green-400 text-black font-bold active:bg-white uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                                         type="submit" >
                                         Send Email
                                     </button>
