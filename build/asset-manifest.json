@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fbe236aa.css",
+    "main.js": "/static/js/main.702ca5fb.js",
+    "static/js/787.ec4a0bfc.chunk.js": "/static/js/787.ec4a0bfc.chunk.js",
+    "static/media/weather-dashboard-preview.gif": "/static/media/weather-dashboard-preview.aa58a7f803b2aa1a1592.gif",
+    "static/media/fourstor-preview.gif": "/static/media/fourstor-preview.c8b0783313f7f081e050.gif",
+    "static/media/day-planner-preview.gif": "/static/media/day-planner-preview.ce460abf39af4fc7bf78.gif",
+    "static/media/home.gif": "/static/media/home.74d14e353869bf5a139b.gif",
+    "static/media/projects.gif": "/static/media/projects.d13896aa2f090ba2f35e.gif",
+    "static/media/code-quiz-preview.gif": "/static/media/code-quiz-preview.3012e6b0dacc9f9943b8.gif",
+    "static/media/contact.gif": "/static/media/contact.0b95746c7752af54f0e7.gif",
+    "static/media/good-readme-gen-preview.gif": "/static/media/good-readme-gen-preview.0666693c6982906c7564.gif",
+    "static/media/team-profile-gen-preview.gif": "/static/media/team-profile-gen-preview.3148281a42bbae0216b7.gif",
+    "static/media/dcphoto.jpg": "/static/media/dcphoto.0e8ee7795e14cca6e02b.jpg",
+    "index.html": "/index.html",
+    "main.fbe236aa.css.map": "/static/css/main.fbe236aa.css.map",
+    "main.702ca5fb.js.map": "/static/js/main.702ca5fb.js.map",
+    "787.ec4a0bfc.chunk.js.map": "/static/js/787.ec4a0bfc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbe236aa.css",
+    "static/js/main.702ca5fb.js"
+  ]
+}
