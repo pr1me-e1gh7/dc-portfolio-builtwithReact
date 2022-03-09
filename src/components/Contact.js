@@ -21,7 +21,7 @@ export default function Contact () {
                         <section className="bg-black text-green-400 rounded-lg lg:flex p-5">
                             <div className="text-lg flex flex-col justify-center">
                                 <h2 className="text-5xl mb-2">&lt;Email Sent&gt;</h2>
-                                <p className="text-2xl">I'll get back to you as soon as I can!</p>
+                                <p className="text-2xl">I'll get back to you as soon asap!</p>
                             </div>
                         </section>
                     </div>
