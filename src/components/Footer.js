@@ -16,9 +16,8 @@ export default function Footer () {
                     style={{ height:35, width:35 }} title="Stack Overflow profile"></SocialIcon>
                 <SocialIcon url="https://open.spotify.com/user/mr.m0th?si=0c534c13c3f74ec3" bgColor="#68d391" fgColor="#000000" target="_blank" className="inline-flex py-7 px-3 mr-3 navicons"
                     style={{ height:35, width:35 }} title="Spotify profile"></SocialIcon>
-
                 </div>
             </div>
         </section>
     )
-}
+};

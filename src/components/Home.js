@@ -25,7 +25,7 @@ export default function Home () {
                             <h2 className="text-5xl mb-2">&lt;Background&gt;</h2>
                             <p className="text-2xl">Full-stack web developer using a background in amateur graphic design to focus on front-end development.
                             Born and raised in Orlando, FL, I've recently graduated from UCF's Coding Bootcamp course, and I'm more than prepared to assist
-                            your web team with whatever challenge your clients may present! I've become educated in HTML, CSS, JavaScript, Node.JS, React.JS, and other
+                            your web team with whatever challenge your clients may present! I've become educated in HTML5, CSS3, JavaScript, Node.JS, React.JS, and other
                             programming languages that'll assist me in any future web development jobs.</p>
                         </div>
                     </section>
