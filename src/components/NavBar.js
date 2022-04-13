@@ -34,7 +34,7 @@ export default function NavBar () {
                     {/* Resume */}
                     <a title="Resume link" 
                     className="inline-flex items-center py-7 px-0 mr-4 text-xl hover:text-white"
-                    href="https://drive.google.com/file/d/157yu4DMGOO1Qx-D4fQ_UF0BXG1HgMQ5S/view"
+                    href="https://drive.google.com/file/d/10Az-NIukT5m-rKrvSxh92auCXYQk9d3k/view"
                     target="_blank">
                         &lt;Resume&gt;
                     </a>
