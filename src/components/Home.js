@@ -29,48 +29,29 @@ export default function Home () {
                         </div>
                     </section>
                     <br></br>
-                    {/* Background */}
-                    <section className="bg-black text-green-400 rounded-lg lg:flex p-5">
+                    {/* My Background */}
+                    <section className="custom-section bg-black text-green-400 rounded-lg lg:flex p-5">
                         <div className="text-lg flex flex-col justify-center">
-                            <h2 className="text-5xl mb-2">&lt;Background&gt;</h2>
-                            <p className="text-2xl">Full-stack web developer using a background in amateur graphic design to focus on front-end development.
-                            Born and raised in Orlando, FL, I've recently graduated from UCF's Coding Bootcamp course, and I'm more than prepared to assist
-                            your web team with whatever challenge your clients may present! I've become educated in HTML5, CSS3, JavaScript, Node.JS, React.JS, and other
-                            programming languages that'll assist me in any future web development jobs.</p>
+                            <h2 className="text-5xl mb-2">&lt;Skillset&gt;</h2>
+                            <p className="text-2xl">Excellent proficiency in CSS, HTML, JavaScript, MERN stack (MongoDB, Express.js, React.js, and Node.js), and Web API’s.
+                            I've also received training in MVC (Model-View-Controller), NoSQL/Non-SQL, OOP (Object-Oriented Programming), ORM (Object-Relational Mapping), PWA (Progressive Web App), and SQL (Structured Query Language).
+                            I'm currently studying Amazon Web Services, C#, Java, and Python.
+                            Typing speed of 65+ WPM at <a href="https://bit.ly/347gwJF" className="custom-link">Expert level</a>.</p>
                         </div>
                     </section>
                     <br></br>
-                    {/* My Motivation */}
-                    <section className="bg-black text-green-400 rounded-lg lg:flex p-5">
+                    {/* Why You Should Hire Me */}
+                    <section className="custom-section bg-black text-green-400 rounded-lg lg:flex p-5">
                         <div className="text-lg flex flex-col justify-center">
-                            <h2 className="text-5xl mb-2">&lt;My Motivation&gt;</h2>
-                            <p className="text-2xl">What drives me to pursue a career in coding is the opportunity to create a life for myself in which I can practice
-                            doing what I love without having to worry daily about my ability to take care of my family financially in these trying times.</p>
-                        </div>
-                    </section>
-                    <br></br>
-                    {/* Why Should You Hire Me? */}
-                    <section className="bg-black text-green-400 rounded-lg lg:flex p-5">
-                        <div className="text-lg flex flex-col justify-center">
-                            <h2 className="text-5xl mb-2">&lt;Why Should You Hire Me?&gt;</h2>
+                            <h2 className="text-5xl mb-2">&lt;Why You Should Hire Me&gt;</h2>
                             <p className="text-2xl">I believe you should consider hiring me for
-                            (1) the fresh perspective I'd bring to the team,
-                            (2) my newly-acquired coding skills I've worked painstakingly hard on to obtain,
-                            (3) my organization skills, and 
+                            (1) my fresh perspective I'd bring to your team,
+                            (2) my constant drive to improve the coding skills I've worked painstakingly hard on to obtain,
+                            (3) my meticulous and organized approach to any problem, and 
                             (4) my ability to collaborate kindly, timely, and efficiently in a team.</p>
                         </div>
                     </section>
                     <br></br>
-                    {/* My Long Term Career Goals */}
-                    <section className="bg-black text-green-400 rounded-lg lg:flex p-5">
-                        <div className="text-lg flex flex-col justify-center">
-                            <h2 className="text-5xl mb-2">&lt;My Long Term Career Goals&gt;</h2>
-                            <p className="text-2xl">I'd like to build a lifetime career in creating aesthetically-pleasing sites that utilize strategic placement of content and intuitive UI
-                            to make for an accurate and fantastical representation of each client's dream website that is simple and easy to understand.
-                            I aspire to work my way up from a beginner front-end web developer to a project manager within the next 8-10 years,
-                            or sooner depending on your the opportunities that present themselves.</p>
-                        </div>
-                    </section>
                     {/* Space for footer */}
                     <br></br>
                     <br></br>

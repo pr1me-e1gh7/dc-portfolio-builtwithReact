@@ -17,7 +17,7 @@ export default function Project () {
                     <br></br>
                     
                     {/* Fourstor */}
-                    <section className="bg-black text-green-400 rounded-lg lg:flex p-5">
+                    <section className="custom-section bg-black text-green-400 rounded-lg lg:flex p-5">
                         {/* Deployment */}
                         <a href="https://pr1me-e1gh7.github.io/fourstor/" target="_blank">
                             <img src={fourstor} alt="FourStor" className="custom-projects rounded w-32 h-32 lg:w-64 lg:-64 mr-8"></img>
@@ -32,7 +32,7 @@ export default function Project () {
                     <br></br>
 
                     {/* Code Quiz */}
-                    <section className="bg-black text-green-400 rounded-lg lg:flex p-5">
+                    <section className="custom-section bg-black text-green-400 rounded-lg lg:flex p-5">
                         {/* Deployment */}
                         <a href="https://pr1me-e1gh7.github.io/code-quiz/" target="_blank">
                             <img src={codequiz} alt="Code Quiz" className="custom-projects rounded w-32 h-32 lg:w-64 lg:-64 mr-8"></img>
@@ -47,7 +47,7 @@ export default function Project () {
                     <br></br>
 
                     {/* Weather Dashboard */}
-                    <section className="bg-black text-green-400 rounded-lg lg:flex p-5">
+                    <section className="custom-section bg-black text-green-400 rounded-lg lg:flex p-5">
                         {/* Deployment */}
                         <a href="https://pr1me-e1gh7.github.io/weather-dashboard/" target="_blank">
                             <img src={wthrdash} alt="Weather Dashboard" className="custom-projects rounded w-32 h-32 lg:w-64 lg:-64 mr-8"></img>
@@ -62,7 +62,7 @@ export default function Project () {
                     <br></br>
 
                     {/* Day Planner */}
-                    <section className="bg-black text-green-400 rounded-lg lg:flex p-5">
+                    <section className="custom-section bg-black text-green-400 rounded-lg lg:flex p-5">
                         {/* Deployment */}
                         <a href="https://pr1me-e1gh7.github.io/day-planner/" target="_blank">
                             <img src={dayplanr} alt="Day Planner" className="custom-projects rounded w-32 h-32 lg:w-64 lg:-64 mr-8"></img>
@@ -77,7 +77,7 @@ export default function Project () {
                     <br></br>
 
                     {/* Good Readme Generator */}
-                    <section className="bg-black text-green-400 rounded-lg lg:flex p-5">
+                    <section className="custom-section bg-black text-green-400 rounded-lg lg:flex p-5">
                         {/* Repo cuz no deployment */}
                         <a href="https://github.com/pr1me-e1gh7/good-readme-generator" target="_blank">
                             <img src={gdreadme} alt="Good Readme Generator" className="custom-projects rounded w-32 h-32 lg:w-64 lg:-64 mr-8"></img>
@@ -92,7 +92,7 @@ export default function Project () {
                     <br></br>
 
                     {/* Team Profile Generator */}
-                    <section className="bg-black text-green-400 rounded-lg lg:flex p-5">
+                    <section className="custom-section bg-black text-green-400 rounded-lg lg:flex p-5">
                         {/* Repo cuz no deployment */}
                         <a href="https://github.com/pr1me-e1gh7/team-profile-generator" target="_blank">
                             <img src={tpgen} alt="Team Profile Generator" className="custom-projects rounded w-32 h-32 lg:w-64 lg:-64 mr-8"></img>
