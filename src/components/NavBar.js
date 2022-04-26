@@ -18,18 +18,22 @@ export default function NavBar () {
                     </h1>
 
                     {/* Pages */}
-                    <NavLink exact to="/" title="About page"
+                    <NavLink exact to="/" title="Home page"
                         className={currentPage === 'Home' ? 'inline-flex items-center py-7 px-0 mr-4 text-white text-4xl' : 'inline-flex items-center py-7 px-0 mr-4 text-xl hover:text-white'}>
-                        <div onClick={() => handlePageChange("Home")}>&lt;About&gt;</div>
+                        <div onClick={() => handlePageChange("Home")}>&lt;Home&gt;</div>
                     </NavLink>
-                    <NavLink exact to="/Projects" title="Projects page"
+                    {/* <NavLink exact to="/Projects" title="Projects page"
                         className={currentPage === 'Projects' ? 'inline-flex items-center py-7 px-0 mr-4 text-white text-4xl' : 'inline-flex items-center py-7 px-0 mr-4 text-xl hover:text-white'}>
                         <div onClick={() => handlePageChange("Projects")}>&lt;Projects&gt;</div>
-                    </NavLink>
+                    </NavLink> */}
                     <NavLink exact to="/Contact" title="Contact page"
                         className={currentPage === 'Contact' ? 'inline-flex items-center py-7 px-0 mr-4 text-white text-4xl' : 'inline-flex items-center py-7 px-0 mr-4 text-xl hover:text-white'}>
                         <div onClick={() => handlePageChange("Contact")}>&lt;Contact&gt;</div>
                     </NavLink>
+                    {/* <NavLink exact to="/Resume" title="Resume page"
+                        className={currentPage === 'Contact' ? 'inline-flex items-center py-7 px-0 mr-4 text-white text-4xl' : 'inline-flex items-center py-7 px-0 mr-4 text-xl hover:text-white'}>
+                        <div onClick={() => handlePageChange("Resume")}>&lt;ResumeTEST&gt;</div>
+                    </NavLink> */}
                     
                     {/* Resume */}
                     <a title="Resume link" 

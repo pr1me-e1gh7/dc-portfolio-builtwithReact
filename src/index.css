@@ -6,6 +6,9 @@
 :root {
   --green: #68d391;
 }
+a:visited {
+  color: var(--green) !important;
+}
 body {
   color: #000000;
   font-family: 'Smooch Sans', sans-serif !important;
