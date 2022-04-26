@@ -22,6 +22,7 @@ body {
   z-index: -99;
 }
 .custom-dcphoto {
+  height: 191px;
   width: auto;
 }
 #custom-header {

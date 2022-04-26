@@ -2,6 +2,12 @@ import React from "react";
 import bkgd from "../images/home.gif";
 import dcphoto from "../images/dcphoto.jpg";
 
+const iframe = '<iframe src="https://api.badgr.io/public/assertions/hdE4dj5XS_inrwLAQ-8F2Q?embedVersion=1&amp;embedWidth=330&amp;embedHeight=191&amp;identity__email=dcaro1996%40yahoo.com" title="Badge: UCF Coding Boot Camp (Full-Stack Web Development)[Full-Time]" style="width: 330px; height: 191px; border: 0px;"></iframe>';
+
+function Iframe(props) {
+    return (<div dangerouslySetInnerHTML={ {__html:  props.iframe?props.iframe:""}} />);
+  }
+
 export default function Home () {
     return (
         <div>
@@ -12,10 +18,14 @@ export default function Home () {
                     <br></br>
                     {/* My Picture */}
                     <section className="text-black justify-center rounded-lg lg:flex p-5">
-                        <img src={dcphoto} alt="My Picture" className="custom-dcphoto rounded w-32 h-32 lg:w-64 lg:-64 mr-8"></img>
+                        <img src={dcphoto} alt="David Caro" className="custom-dcphoto rounded mr-8"></img>
                         <div className="text-lg flex flex-col font-black justify-center">
                             <h1 className="text-5xl mb-2" id="custom-header">&lt;Hello there, I'm David 👋&gt;</h1>
                             <h3 className="text-3xl mb-2">Your Friendly-Neighborhood Web Developer</h3>
+                        </div>
+                        {/* Cert Badge */}
+                        <div className="px-5">
+                            <Iframe iframe={iframe} />
                         </div>
                     </section>
                     <br></br>
